@@ -15,3 +15,40 @@
  */
 
 // YOUR CODE GOES HERE :)
+
+public class ASCIIArt {
+
+	public static void main(String[] args) {
+		drawDiamond();
+		drawHead();
+		drawBody();
+		drawLeg();
+		drawGround();
+		drawDiamond();
+	}
+	public static void drawHead() {
+		System.out.println("                   ////^\\");
+		System.out.println("                 ////`   %==--") ;
+		System.out.println("                ///` ( ' |");
+		System.out.println("               ///`  /\\__/");
+		System.out.println("              ////`  @");
+	}
+	public static void drawBody() {
+		System.out.println("     //\"-------       |");
+		System.out.println("    //\"(              |");
+		System.out.println("   ///\" \\         \\  /");
+	}
+	public static void drawLeg(){
+		System.out.println("        | |-------| |");
+		System.out.println("        | |       | |");
+		System.out.println("        )_\\       )_\\");
+	}
+	public static void drawGround(){
+		System.out.println("--------------------------------------");
+	}
+	public static void drawDiamond(){
+		System.out.println("/\\                                  /\\");
+		System.out.println("\\/                                  \\/");
+		System.out.println(" *                                   *");
+	}
+	}
