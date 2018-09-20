@@ -20,11 +20,15 @@ public class ASCIIArt {
 
 	public static void main(String[] args) {
 		drawDiamond();
+		drawSparkle();
 		drawHead();
 		drawBody();
 		drawLeg();
 		drawGround();
+		drawSparkle();
 		drawDiamond();
+		System.out.println("\t    Good Morning!");
+		drawGround();
 	}
 	public static void drawHead() {
 		System.out.println("                   ////^\\");
@@ -49,6 +53,8 @@ public class ASCIIArt {
 	public static void drawDiamond(){
 		System.out.println("/\\                                  /\\");
 		System.out.println("\\/                                  \\/");
+	}
+	public static void drawSparkle(){
 		System.out.println(" *                                   *");
 	}
 	}
